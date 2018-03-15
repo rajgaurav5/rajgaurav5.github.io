@@ -1,0 +1,189 @@
+
+/* My designing and color combination is terrible please bear with that, In this Responsive Web Design I Used Media Queries, flexbox, Viewport and other CSS properties   */
+:root {
+  font-size: 16px; 
+  }
+@media screen and (min-width:200px) {
+
+body {
+  margin: 0px;
+  font-family:Verdana, serif;
+  font-size:15px;
+  //background-color:#FFA07A;
+  background-image:url("download.jpeg");
+  //text-align:center;
+  }
+  
+h1 {
+	 text-align:center;
+	 text-decoration:underline;
+  }
+    
+#horizontal a {
+	  
+	  text-decoration:none;
+	  color:green;
+	  padding:8px 8px 8px 8px;
+	  color:white;
+	  vertical-align:middle;
+  }
+  
+#horizontal a:link {
+	  color:white;
+  }
+  
+#horizontal a:visited {
+	  color:yellow;
+  }
+
+#horizontal a:hover {
+	  color:purple;
+  }
+
+#horizontal li {
+	  display:inline;
+	  padding:20px;
+	  vertical-align:middle;
+  }
+  
+#horizontal {
+	  background-color:#333;
+	  height:50px;
+	  font-size:25px;
+	  white-space:nowrap;
+  }
+
+#horizontal ul {
+	  padding:0;
+	  margin:0;
+	  list-style-type:none;
+	  text-align:right;
+  }
+
+h2 {
+	  text-align:left-side;
+	  text-decoration:underline;
+  }
+  
+#image {
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:0px;
+	  margin-bottom:10px;
+	  border-radius:5px;
+	  float:right;
+	  clear:right;
+	  width:320px;
+	  display:flex;
+	  flex-wrap:wrap;
+	//overflow:none;
+	
+  }
+
+
+  
+.paragraph {
+	  background-color:#FFFFE0;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  position:"relative";
+	  display:flex;
+	  flex-wrap:wrap;
+	  overflow:none;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+  }
+ 
+.Future {
+	  background-color:#F4A460;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+  }
+
+.Current {
+	  background-color:#F5DEB3;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+	
+  }
+
+.Current p {
+	  text-decoration:underline;
+  }
+  
+.Future p {
+	  text-decoration:underline;
+  }
+
+.prof_summary {
+	  background-color:#e5e4d7;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  display:flex;
+	  flex-wrap:wrap;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+  }
+ 
+
+
+
+.training_certification {
+	  background-color:#2F4F4F;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+  }
+
+.technical_skills {
+	  background-color:#00ffbf;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+	
+  }
+.project {
+	  background-color:#e5e4d7;
+	  border-radius:5px;
+	  padding:20px;
+	  font-size:110%;
+	  margin-left:10px;
+	  margin-right:10px;
+	  margin-top:10px;
+	  margin-bottom:10px;
+	
+  }
+
+.icon {
+	  display:flex;
+	  flex-wrap:wrap;
+	  //background-color:#F08080;
+	  border-radius:5px;
+	  padding:20px;
+	  	  
+  }
+}
