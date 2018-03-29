@@ -1,0 +1,51 @@
+@media screen and (min-width:250px) {
+
+body {
+	font-family:Helvetica;
+	background-color:#6A5ACD;
+}
+h2 {
+	text-align:center;
+	margin-left:350px;
+	margin-right:350px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:20px;
+	color:#B22222;
+	display:flex;
+	flex-wrap:wrap;
+	cursor: pointer;
+}
+  
+  
+.accordion-defn {
+	display: block;
+	background-color:#F5DEB3;
+	border-radius:5px;
+	padding:20px;
+	font-size:110%;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:flex;
+	flex-wrap:wrap;
+}
+	 
+.paragraph {
+	background-color:#0000CD;
+	border-radius:5px;
+	padding:20px;
+	font-size:110%;
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	overflow:none;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	display: none;
+
+}
+}

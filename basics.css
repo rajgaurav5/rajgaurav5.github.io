@@ -1,0 +1,14 @@
+@media screen and (min-width:250px) {
+.basics {
+	text-align:center;
+	margin-left:350px;
+	margin-right:350px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:20px;
+	color:#B22222;
+	background-color:#FF7F50;
+	display:flex;
+	flex-wrap:wrap;
+}
+}
